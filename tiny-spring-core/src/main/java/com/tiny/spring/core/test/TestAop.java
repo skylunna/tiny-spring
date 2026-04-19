@@ -13,7 +13,7 @@ import com.tiny.spring.core.service.OrdersService;
 public class TestAop {
     public static void main(String[] args) {
         ApplicationContextStep3Aop context = new ApplicationContextStep3Aop(
-                "com.tiny.spring.service.impl.OrderServiceImpl"
+                "com.tiny.spring.core.service.impl.OrderServiceImpl"
         );
 
         // 注意: getBean 返回的可能是代理对象

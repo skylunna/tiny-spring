@@ -13,7 +13,7 @@ import com.tiny.spring.core.service.IService;
 public class TestIoC {
     public static void main(String[] args) {
         // 1. 启动容器
-        ApplicationContextStep2DI context = new ApplicationContextStep2DI("com.tiny.spring.service");
+        ApplicationContextStep2DI context = new ApplicationContextStep2DI("com.tiny.spring.core.service.impl.UserServiceImpl");
 
         // 2. 从容器中获取Bean
         IService service = (IService) context.getBean("UserServiceImpl");

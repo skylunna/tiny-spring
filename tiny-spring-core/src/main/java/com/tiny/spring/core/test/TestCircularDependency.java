@@ -16,8 +16,8 @@ public class TestCircularDependency {
     public static void main(String[] args) {
         System.out.println("=== 启动容器（测试循环依赖） ===");
         ApplicationContext context = new ApplicationContext(
-                "com.tiny.spring.service.ServiceA",
-                "com.tiny.spring.service.ServiceB"
+                "com.tiny.spring.core.service.ServiceA",
+                "com.tiny.spring.core.service.ServiceB"
         );
 
         System.out.println("\n=== 获取 Bean 并调用 ===");
