@@ -15,8 +15,8 @@ public class TestBeanLifecycle {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("=== 启动容器 ===");
         ApplicationContextStep4BeanLifeCycle context = new ApplicationContextStep4BeanLifeCycle(
-                "com.tiny.spring.service.impl.UserServiceImpl",
-                "com.tiny.spring.service.impl.OrderServiceImpl"
+                "com.tiny.spring.core.service.impl.UserServiceImpl",
+                "com.tiny.spring.core.service.impl.OrderServiceImpl"
         );
 
         System.out.println("\n=== 使用 Bean ===");
