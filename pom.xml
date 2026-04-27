@@ -15,6 +15,7 @@
     <modules>
         <module>tiny-spring-core</module>
         <module>tiny-web</module>
+        <module>tiny-java-base</module>
     </modules>
 
     <!-- 统一配置 -->

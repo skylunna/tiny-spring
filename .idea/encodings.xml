@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tiny-java-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tiny-java-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tiny-spring-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tiny-spring-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tiny-web/src/main/java" charset="UTF-8" />
